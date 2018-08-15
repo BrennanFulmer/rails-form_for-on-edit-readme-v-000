@@ -1,3 +1,5 @@
+<!--
+<%=begin%>
 <%= form_tag posts_path do %>
   <label>Post title:</label><br>
   <%= text_field_tag :title %><br>
@@ -7,6 +9,8 @@
 
   <%= submit_tag "Submit Post" %>
 <% end %>
+<%=end%>
+-->
 
 <%= form_for(@post) do |f| %>
   <label>Post title:</label><br>
